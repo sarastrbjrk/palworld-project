@@ -1,0 +1,2503 @@
+[
+  {
+    "id": 1,
+    "key": "001",
+    "image": "/public/images/paldeck/001.png",
+    "name": "Lamball",
+    "wiki": "https://palworld.fandom.com/wiki/Lamball",
+    "types": [
+      {
+        "name": "neutral"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 1
+      },
+      {
+        "type": "farming",
+        "image": "/public/images/works/farming.png",
+        "level": 1
+      }
+    ],
+    "drops": ["wool", "lamball_mutton"],
+    "aura": {
+      "name": "fluffy_shield",
+      "description": "When activated, equips to the player and becomes a shield.\nSometimes drops Wool when assigned to Ranch.",
+      "tech": null
+    },
+    "description": "A walk up a hill tends to end with this Pal tumbling back down. This causes it to become dizzy and unable to move, making it easy to capture and kill. As a result, this pal has tumbled down to the very bottom of the food chain itself.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "roly_poly",
+        "type": "neutral",
+        "cooldown": 1,
+        "power": 35,
+        "description": "Lamball's special skill. Curls into a ball, rolling after any enemies in its way. Becomes dizzy and unable to move after the attack ends.\n"
+      },
+      {
+        "level": 7,
+        "name": "air_cannon",
+        "type": "neutral",
+        "cooldown": 2,
+        "power": 25,
+        "description": "Quickly fires a burst of highly pressurized air.\n"
+      },
+      {
+        "level": 15,
+        "name": "power_shot",
+        "type": "neutral",
+        "cooldown": 4,
+        "power": 35,
+        "description": "Charges energy into a focused blast.\n"
+      },
+      {
+        "level": 22,
+        "name": "implode",
+        "type": "neutral",
+        "cooldown": 55,
+        "power": 180,
+        "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards.\n"
+      },
+      {
+        "level": 30,
+        "name": "electric_ball",
+        "type": "electric",
+        "cooldown": 9,
+        "power": 50,
+        "description": "Fires an electric ball that slowly pursues an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "power_bomb",
+        "type": "neutral",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Charges a massive amount of energy before firing a large destructive ball.\n"
+      },
+      {
+        "level": 50,
+        "name": "pal_blast",
+        "type": "neutral",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.\n"
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": {
+        "melee": 70,
+        "ranged": 70
+      },
+      "defense": 70,
+      "speed": {
+        "ride": 550,
+        "run": 400,
+        "walk": 40
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 2
+    },
+    "asset": "SheepBall",
+    "genus": "humanoid",
+    "rarity": 1,
+    "price": 1000,
+    "size": "xs",
+    "maps": {
+      "day": "/public/images/maps/001-day.png",
+      "night": "/public/images/maps/001-night.png"
+    },
+    "breeding": {
+      "rank": 1470,
+      "order": 27,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 2,
+    "key": "002",
+    "image": "/public/images/paldeck/002.png",
+    "name": "Cattiva",
+    "wiki": "https://palworld.fandom.com/wiki/Cattiva",
+    "types": [
+      {
+        "name": "neutral"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 1
+      },
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 1
+      },
+      {
+        "type": "mining",
+        "image": "/public/images/works/mining.png",
+        "level": 1
+      }
+    ],
+    "drops": ["red_berries"],
+    "aura": {
+      "name": "cat_helper",
+      "description": "While in team, Cattiva helps carry supplies, increasing the player's max carrying capacity.",
+      "tech": null
+    },
+    "description": "At a glance it appears full of confidence, but it is in fact weak and cowardly.\nBeing toyed with by a Cattiva is in many ways the greatest of disgraces.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "punch_flurry",
+        "type": "neutral",
+        "cooldown": 1,
+        "power": 40,
+        "description": "Cattiva's special skill. Pursues enemies, repeatedly punching them with both its fists.\n"
+      },
+      {
+        "level": 7,
+        "name": "air_cannon",
+        "type": "neutral",
+        "cooldown": 2,
+        "power": 25,
+        "description": "Quickly fires a burst of highly pressurized air.\n"
+      },
+      {
+        "level": 15,
+        "name": "sand_blast",
+        "type": "ground",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Hurls sticky mud at an enemy.\n"
+      },
+      {
+        "level": 22,
+        "name": "power_shot",
+        "type": "neutral",
+        "cooldown": 4,
+        "power": 35,
+        "description": "Charges energy into a focused blast.\n"
+      },
+      {
+        "level": 30,
+        "name": "wind_cutter",
+        "type": "grass",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Fires a high speed blade of wind that flies straight at an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "seed_machine_gun",
+        "type": "grass",
+        "cooldown": 9,
+        "power": 50,
+        "description": "Fires a volley of hard seeds at enemies in front of it.\n"
+      },
+      {
+        "level": 50,
+        "name": "pal_blast",
+        "type": "neutral",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.\n"
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": {
+        "melee": 70,
+        "ranged": 70
+      },
+      "defense": 70,
+      "speed": {
+        "ride": 550,
+        "run": 400,
+        "walk": 60
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 2
+    },
+    "asset": "PinkCat",
+    "genus": "humanoid",
+    "rarity": 1,
+    "price": 1000,
+    "size": "xs",
+    "maps": {
+      "day": "/public/images/maps/002-day.png",
+      "night": "/public/images/maps/002-night.png"
+    },
+    "breeding": {
+      "rank": 1460,
+      "order": 46,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 3,
+    "key": "003",
+    "image": "/public/images/paldeck/003.png",
+    "name": "Chikipi",
+    "wiki": "https://palworld.fandom.com/wiki/Chikipi",
+    "types": [
+      {
+        "name": "neutral"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 1
+      },
+      {
+        "type": "farming",
+        "image": "/public/images/works/farming.png",
+        "level": 1
+      }
+    ],
+    "drops": ["egg", "chikipi_poultry"],
+    "aura": {
+      "name": "egg_layer",
+      "description": "Sometimes lays an Egg when assigned to Ranch.",
+      "tech": null
+    },
+    "description": "Extremely weak and far too delicious. It is one of the weakest Pal alongside Lamball. No matter how many are hunted, they just keep appearing.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "chicken_rush",
+        "type": "neutral",
+        "cooldown": 1,
+        "power": 30,
+        "description": "Chikipi's special skill. Flies at enemies in its sights, attacking them with its sharp beak.\n"
+      },
+      {
+        "level": 7,
+        "name": "air_cannon",
+        "type": "neutral",
+        "cooldown": 2,
+        "power": 25,
+        "description": "Quickly fires a burst of highly pressurized air.\n"
+      },
+      {
+        "level": 15,
+        "name": "power_shot",
+        "type": "neutral",
+        "cooldown": 4,
+        "power": 35,
+        "description": "Charges energy into a focused blast.\n"
+      },
+      {
+        "level": 22,
+        "name": "implode",
+        "type": "neutral",
+        "cooldown": 55,
+        "power": 180,
+        "description": "Risks its life to cause a violent explosion. Becomes incapacitated afterwards.\n"
+      },
+      {
+        "level": 30,
+        "name": "grass_tornado",
+        "type": "grass",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two tornadoes on either side before launching them at an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "sand_tornado",
+        "type": "ground",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy.\n"
+      },
+      {
+        "level": 50,
+        "name": "flare_storm",
+        "type": "fire",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two flaming tornadoes on either side before launching them at an enemy.\n"
+      }
+    ],
+    "stats": {
+      "hp": 60,
+      "attack": {
+        "melee": 70,
+        "ranged": 60
+      },
+      "defense": 60,
+      "speed": {
+        "ride": 550,
+        "run": 375,
+        "walk": 50
+      },
+      "stamina": 100,
+      "support": 70,
+      "food": 1
+    },
+    "asset": "ChickenPal",
+    "genus": "bird",
+    "rarity": 1,
+    "price": 1000,
+    "size": "xs",
+    "maps": {
+      "day": "/public/images/maps/003-day.png",
+      "night": "/public/images/maps/003-night.png"
+    },
+    "breeding": {
+      "rank": 1500,
+      "order": 62,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 4,
+    "key": "016",
+    "image": "/public/images/paldeck/016.png",
+    "name": "Teafant",
+    "wiki": "https://palworld.fandom.com/wiki/Teafant",
+    "types": [
+      {
+        "name": "water"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "watering",
+        "image": "/public/images/works/watering.png",
+        "level": 1
+      }
+    ],
+    "drops": ["pal_fluids"],
+    "aura": {
+      "name": "soothing_shower",
+      "description": "When activated, spouts mysterious water that soothes wounds and restores the player's HP.",
+      "tech": null
+    },
+    "description": "Large amounts of water pour from what is thought to be its nose, though some say that it is, in fact, just snot. This has sparked a fierce debate among Pal scholars.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "aqua_gun",
+        "type": "water",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Hurls a ball of water straight at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "hydro_jet",
+        "type": "water",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Hurls a high speed ball of water at an enemy.\n"
+      },
+      {
+        "level": 15,
+        "name": "sand_blast",
+        "type": "ground",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Hurls sticky mud at an enemy.\n"
+      },
+      {
+        "level": 22,
+        "name": "bubble_blast",
+        "type": "water",
+        "cooldown": 13,
+        "power": 65,
+        "description": "Fires numerous bubbles that slowly pursue an enemy.\n"
+      },
+      {
+        "level": 30,
+        "name": "acid_rain",
+        "type": "water",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Creates acidic clouds that pour down acid rain on enemies.\n"
+      },
+      {
+        "level": 40,
+        "name": "aqua_burst",
+        "type": "water",
+        "cooldown": 30,
+        "power": 100,
+        "description": "Creates a giant ball of water and hurls it at an enemy.\n"
+      },
+      {
+        "level": 50,
+        "name": "hydro_laser",
+        "type": "water",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Shoots pressurized water at extreme velocities, sweeping over a wide area in front of it.\n"
+      }
+    ],
+    "stats": {
+      "hp": 70,
+      "attack": {
+        "melee": 70,
+        "ranged": 60
+      },
+      "defense": 70,
+      "speed": {
+        "ride": 400,
+        "run": 300,
+        "walk": 60
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 2
+    },
+    "asset": "Ganesha",
+    "genus": "fourlegged",
+    "rarity": 1,
+    "price": 1000,
+    "size": "m",
+    "maps": {
+      "day": "/public/images/maps/016-day.png",
+      "night": "/public/images/maps/016-night.png"
+    },
+    "breeding": {
+      "rank": 1490,
+      "order": 14,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 5,
+    "key": "026",
+    "image": "/public/images/paldeck/026.png",
+    "name": "Direhowl",
+    "wiki": "https://palworld.fandom.com/wiki/Direhowl",
+    "types": [
+      {
+        "name": "neutral"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 1
+      }
+    ],
+    "drops": ["leather", "ruby", "gold_coin"],
+    "aura": {
+      "name": "direhowl_rider",
+      "description": "Can be ridden.\nMoves slightly faster than most mounts.",
+      "tech": "Direhowl's Saddled Harness"
+    },
+    "description": "Long ago Direhowl would hunt alongside humans but over the years this bond faded.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "fierce_fang",
+        "type": "neutral",
+        "cooldown": 2,
+        "power": 45,
+        "description": "Direhowl's special skill. Swiftly leaps at an enemy and bites into them.\n"
+      },
+      {
+        "level": 7,
+        "name": "sand_blast",
+        "type": "ground",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Hurls sticky mud at an enemy.\n"
+      },
+      {
+        "level": 15,
+        "name": "air_cannon",
+        "type": "neutral",
+        "cooldown": 2,
+        "power": 25,
+        "description": "Quickly fires a burst of highly pressurized air.\n"
+      },
+      {
+        "level": 22,
+        "name": "power_shot",
+        "type": "neutral",
+        "cooldown": 4,
+        "power": 35,
+        "description": "Charges energy into a focused blast.\n"
+      },
+      {
+        "level": 30,
+        "name": "ignis_blast",
+        "type": "fire",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Hurls a ball of fire straight at an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "power_bomb",
+        "type": "neutral",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Charges a massive amount of energy before firing a large destructive ball.\n"
+      },
+      {
+        "level": 50,
+        "name": "pal_blast",
+        "type": "neutral",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.\n"
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": {
+        "melee": 110,
+        "ranged": 90
+      },
+      "defense": 75,
+      "speed": {
+        "ride": 1050,
+        "run": 800,
+        "walk": 180
+      },
+      "stamina": 70,
+      "support": 100,
+      "food": 3
+    },
+    "asset": "Garm",
+    "genus": "fourlegged",
+    "rarity": 2,
+    "price": 1920,
+    "size": "s",
+    "maps": {
+      "day": "/public/images/maps/026-day.png",
+      "night": "/public/images/maps/026-night.png"
+    },
+    "breeding": {
+      "rank": 1060,
+      "order": 15,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 6,
+    "key": "030",
+    "image": "/public/images/paldeck/030.png",
+    "name": "Bristla",
+    "wiki": "https://palworld.fandom.com/wiki/Bristla",
+    "types": [
+      {
+        "name": "grass"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "planting",
+        "image": "/public/images/works/planting.png",
+        "level": 1
+      },
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 1
+      },
+      {
+        "type": "medicine_production",
+        "image": "/public/images/works/medicine_production.png",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 1
+      },
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 1
+      }
+    ],
+    "drops": ["wheat_seeds", "lettuce_seeds"],
+    "aura": {
+      "name": "princess_gaze",
+      "description": "While in team, increases attack power of Grass Pals.",
+      "tech": null
+    },
+    "description": "This prickly Pal's thorns are highly poisonous. It is friendly with Cinnamoth and only smiles when Cinnamoth is drinking its nectar.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "wind_cutter",
+        "type": "grass",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Fires a high speed blade of wind that flies straight at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "seed_machine_gun",
+        "type": "grass",
+        "cooldown": 9,
+        "power": 50,
+        "description": "Fires a volley of hard seeds at enemies in front of it.\n"
+      },
+      {
+        "level": 15,
+        "name": "ice_missile",
+        "type": "ice",
+        "cooldown": 3,
+        "power": 30,
+        "description": "Creates ice lances in the air that fly towards enemies.\n"
+      },
+      {
+        "level": 22,
+        "name": "grass_tornado",
+        "type": "grass",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two tornadoes on either side before launching them at an enemy.\n"
+      },
+      {
+        "level": 30,
+        "name": "iceberg",
+        "type": "ice",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Summons a sharp ice lance under an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "spine_vine",
+        "type": "grass",
+        "cooldown": 25,
+        "power": 95,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.\n"
+      },
+      {
+        "level": 50,
+        "name": "solar_blast",
+        "type": "grass",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges solar energy before blasting enemies with a powerful beam.\n"
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": {
+        "melee": 80,
+        "ranged": 80
+      },
+      "defense": 80,
+      "speed": {
+        "ride": 550,
+        "run": 400,
+        "walk": 100
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 5
+    },
+    "asset": "LittleBriarRose",
+    "genus": "humanoid",
+    "rarity": 1,
+    "price": 1140,
+    "size": "s",
+    "maps": {
+      "day": "/public/images/maps/030-day.png",
+      "night": "/public/images/maps/030-night.png"
+    },
+    "breeding": {
+      "rank": 1320,
+      "order": 21,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 7,
+    "key": "045",
+    "image": "/public/images/paldeck/045.png",
+    "name": "Leezpunk",
+    "wiki": "https://palworld.fandom.com/wiki/Leezpunk",
+    "types": [
+      {
+        "name": "dark"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 1
+      },
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 1
+      }
+    ],
+    "drops": ["copper_key", "silver_key"],
+    "aura": {
+      "name": "sixth_sense",
+      "description": "When activated, utilizes its sixth sense to detect nearby dungeons.",
+      "tech": null
+    },
+    "description": "A Pal that always takes great care to maintain a stylish stance. Always on the hunt for the coolest poses, if given a mirror it will spend all day posing in front of it.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "poison_blast",
+        "type": "dark",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Hurls poison sludge at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "dark_ball",
+        "type": "dark",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy.\n"
+      },
+      {
+        "level": 15,
+        "name": "shadow_burst",
+        "type": "dark",
+        "cooldown": 10,
+        "power": 55,
+        "description": "Quickly discharges dark energy, damaging those around it.\n"
+      },
+      {
+        "level": 22,
+        "name": "spirit_flame",
+        "type": "dark",
+        "cooldown": 16,
+        "power": 75,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy.\n"
+      },
+      {
+        "level": 30,
+        "name": "nightmare_ball",
+        "type": "dark",
+        "cooldown": 30,
+        "power": 100,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "ignis_breath",
+        "type": "fire",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Shoots flames at an enemy, dealing continuous damage.\n"
+      },
+      {
+        "level": 50,
+        "name": "dark_laser",
+        "type": "dark",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges dark energy before blasting enemies with a powerful beam.\n"
+      }
+    ],
+    "stats": {
+      "hp": 80,
+      "attack": {
+        "melee": 90,
+        "ranged": 80
+      },
+      "defense": 50,
+      "speed": {
+        "ride": 800,
+        "run": 600,
+        "walk": 140
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 3
+    },
+    "asset": "LizardMan",
+    "genus": "humanoid",
+    "rarity": 2,
+    "price": 1720,
+    "size": "s",
+    "maps": {
+      "day": "/public/images/maps/045-day.png",
+      "night": "/public/images/maps/045-night.png"
+    },
+    "breeding": {
+      "rank": 1120,
+      "order": 57,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 8,
+    "key": "048",
+    "image": "/public/images/paldeck/048.png",
+    "name": "Robinquill",
+    "wiki": "https://palworld.fandom.com/wiki/Robinquill",
+    "types": [
+      {
+        "name": "grass"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "planting",
+        "image": "/public/images/works/planting.png",
+        "level": 1
+      },
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "image": "/public/images/works/lumbering.png",
+        "level": 1
+      },
+      {
+        "type": "medicine_production",
+        "image": "/public/images/works/medicine_production.png",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 2
+      },
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 2
+      }
+    ],
+    "drops": ["wheat_seeds", "arrow"],
+    "aura": {
+      "name": "hawk_eye",
+      "description": "While fighting together, allows you to deal more damage to weak points.",
+      "tech": null
+    },
+    "description": "A pal that is very similar to humans who hunt and live in the forests. It may prove to be a key for understanding what Pals are and how they diverged from humans so long ago.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "wind_cutter",
+        "type": "grass",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Fires a high speed blade of wind that flies straight at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "power_shot",
+        "type": "neutral",
+        "cooldown": 4,
+        "power": 35,
+        "description": "Charges energy into a focused blast.\n"
+      },
+      {
+        "level": 15,
+        "name": "focus_shot",
+        "type": "grass",
+        "cooldown": 9,
+        "power": 65,
+        "description": "Robinquill's exclusive skill. Takes aim while drawing its bow before loosing a powerful shot at an enemy.\n"
+      },
+      {
+        "level": 22,
+        "name": "seed_mine",
+        "type": "grass",
+        "cooldown": 13,
+        "power": 65,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes.\n"
+      },
+      {
+        "level": 30,
+        "name": "grass_tornado",
+        "type": "grass",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two tornadoes on either side before launching them at an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "spine_vine",
+        "type": "grass",
+        "cooldown": 25,
+        "power": 95,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.\n"
+      },
+      {
+        "level": 50,
+        "name": "solar_blast",
+        "type": "grass",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges solar energy before blasting enemies with a powerful beam.\n"
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": {
+        "melee": 100,
+        "ranged": 105
+      },
+      "defense": 80,
+      "speed": {
+        "ride": 750,
+        "run": 600,
+        "walk": 100
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 3
+    },
+    "asset": "RobinHood",
+    "genus": "humanoid",
+    "rarity": 5,
+    "price": 2050,
+    "size": "m",
+    "maps": {
+      "day": "/public/images/maps/048-day.png",
+      "night": "/public/images/maps/048-night.png"
+    },
+    "breeding": {
+      "rank": 1020,
+      "order": 52,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 9,
+    "key": "064",
+    "image": "/public/images/paldeck/064.png",
+    "name": "Dinossom",
+    "wiki": "https://palworld.fandom.com/wiki/Dinossom",
+    "types": [
+      {
+        "name": "grass",
+        "image": "/public/images/elements/grass.png"
+      },
+      {
+        "name": "dragon"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "planting",
+        "image": "/public/images/works/planting.png",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "image": "/public/images/works/lumbering.png",
+        "level": 2
+      }
+    ],
+    "drops": ["wheat_seeds"],
+    "aura": {
+      "name": "fragrant_dragon",
+      "description": "Can be ridden.\nEnchances Grass attacks while mounted.",
+      "tech": null
+    },
+    "description": "A Pal who once angered cannot be pacified. It rages on and on like an inferno. The prahse \"step on a Dinossom's tail\" has come to mean enraging someone.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "wind_cutter",
+        "type": "grass",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Fires a high speed blade of wind that flies straight at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "botanical_smash",
+        "type": "grass",
+        "cooldown": 8,
+        "power": 60,
+        "description": "Dinossom's exclusive skill. Uses large tail to smash the ground in front of it, damaging enemies over a wide area.\n"
+      },
+      {
+        "level": 15,
+        "name": "dragon_burst",
+        "type": "dragon",
+        "cooldown": 10,
+        "power": 55,
+        "description": "Quickly discharges draconic energy, damaging those around it.\n"
+      },
+      {
+        "level": 22,
+        "name": "seed_mine",
+        "type": "grass",
+        "cooldown": 13,
+        "power": 65,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes.\n"
+      },
+      {
+        "level": 30,
+        "name": "draconic_breath",
+        "type": "dragon",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it.\n"
+      },
+      {
+        "level": 40,
+        "name": "spine_vine",
+        "type": "grass",
+        "cooldown": 25,
+        "power": 95,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.\n"
+      },
+      {
+        "level": 50,
+        "name": "solar_blast",
+        "type": "grass",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges solar energy before blasting enemies with a powerful beam.\n"
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": {
+        "melee": 90,
+        "ranged": 85
+      },
+      "defense": 90,
+      "speed": {
+        "ride": 700,
+        "run": 550,
+        "walk": 120
+      },
+      "stamina": 100,
+      "support": 150,
+      "food": 6
+    },
+    "asset": "FlowerDinosaur",
+    "genus": "humanoid",
+    "rarity": 6,
+    "price": 3240,
+    "size": "l",
+    "maps": {
+      "day": "/public/images/maps/064-day.png",
+      "night": "/public/images/maps/064-night.png"
+    },
+    "breeding": {
+      "rank": 820,
+      "order": 63,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 10,
+    "key": "068",
+    "image": "/public/images/paldeck/068.png",
+    "name": "Tombat",
+    "wiki": "https://palworld.fandom.com/wiki/Tombat",
+    "types": [
+      {
+        "name": "dark"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "image": "/public/images/works/mining.png",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 2
+      }
+    ],
+    "drops": ["leather", "small_pal_soul"],
+    "aura": {
+      "name": "ultrasonic_sensor",
+      "description": "When activated, uses ultrasonic waves to detect the location of nearby Pals.",
+      "tech": null
+    },
+    "description": "Often appears out of the blue to flaunt its prized wings in front of other Pals.\nAlthough it seems to be an intimidation tactic, the Pal seems to derive some kind of pleasure from the display.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "air_cannon",
+        "type": "neutral",
+        "cooldown": 2,
+        "power": 25,
+        "description": "Quickly fires a burst of highly pressurized air.\n"
+      },
+      {
+        "level": 7,
+        "name": "poison_blast",
+        "type": "dark",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Hurls poison sludge at an enemy.\n"
+      },
+      {
+        "level": 15,
+        "name": "dark_ball",
+        "type": "dark",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy.\n"
+      },
+      {
+        "level": 22,
+        "name": "shadow_burst",
+        "type": "dark",
+        "cooldown": 10,
+        "power": 55,
+        "description": "Quickly discharges dark energy, damaging those around it.\n"
+      },
+      {
+        "level": 30,
+        "name": "spirit_flame",
+        "type": "dark",
+        "cooldown": 16,
+        "power": 75,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "nightmare_ball",
+        "type": "dark",
+        "cooldown": 30,
+        "power": 100,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy.\n"
+      },
+      {
+        "level": 50,
+        "name": "dark_laser",
+        "type": "dark",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges dark energy before blasting enemies with a powerful beam.\n"
+      }
+    ],
+    "stats": {
+      "hp": 95,
+      "attack": {
+        "melee": 100,
+        "ranged": 95
+      },
+      "defense": 80,
+      "speed": {
+        "ride": 550,
+        "run": 400,
+        "walk": 140
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 5
+    },
+    "asset": "CatBat",
+    "genus": "humanoid",
+    "rarity": 5,
+    "price": 3810,
+    "size": "m",
+    "maps": {
+      "night": "/public/images/maps/068-night.png"
+    },
+    "breeding": {
+      "rank": 750,
+      "order": 96,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 11,
+    "key": "075",
+    "image": "/public/images/paldeck/075.png",
+    "name": "Katress",
+    "wiki": "https://palworld.fandom.com/wiki/Katress",
+    "types": [
+      {
+        "name": "dark"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "medicine_production",
+        "image": "/public/images/works/medicine_production.png",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 2
+      }
+    ],
+    "drops": ["leather", "katress_hair", "high_grade_technical_manual"],
+    "aura": {
+      "name": "grimoire_collector",
+      "description": "While fighting together, Neutral Pals drop more items when defeated.",
+      "tech": null
+    },
+    "description": "With the power of shadows it produces arcane phenomena. It prefers to eat food raw and is particularly hostile towards Wixen",
+    "skills": [
+      {
+        "level": 1,
+        "name": "ignis_blast",
+        "type": "fire",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Hurls a ball of fire straight at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "dark_ball",
+        "type": "dark",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy.\n"
+      },
+      {
+        "level": 15,
+        "name": "flare_arrow",
+        "type": "fire",
+        "cooldown": 10,
+        "power": 55,
+        "description": "Fires three flaming arrows in succession that home in on an enemy.\n"
+      },
+      {
+        "level": 22,
+        "name": "shadow_burst",
+        "type": "dark",
+        "cooldown": 10,
+        "power": 55,
+        "description": "Quickly discharges dark energy, damaging those around it.\n"
+      },
+      {
+        "level": 30,
+        "name": "spirit_flame",
+        "type": "dark",
+        "cooldown": 16,
+        "power": 75,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "nightmare_ball",
+        "type": "dark",
+        "cooldown": 30,
+        "power": 100,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy.\n"
+      },
+      {
+        "level": 50,
+        "name": "dark_laser",
+        "type": "dark",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges dark energy before blasting enemies with a powerful beam.\n"
+      }
+    ],
+    "stats": {
+      "hp": 90,
+      "attack": {
+        "melee": 100,
+        "ranged": 105
+      },
+      "defense": 90,
+      "speed": {
+        "ride": 620,
+        "run": 440,
+        "walk": 145
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 5
+    },
+    "asset": "CatMage",
+    "genus": "humanoid",
+    "rarity": 6,
+    "price": 4120,
+    "size": "m",
+    "maps": {
+      "night": "/public/images/maps/075-night.png"
+    },
+    "breeding": {
+      "rank": 700,
+      "order": 116,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 12,
+    "key": "085",
+    "image": "/public/images/paldeck/085.png",
+    "name": "Relaxaurus",
+    "wiki": "https://palworld.fandom.com/wiki/Relaxaurus",
+    "types": [
+      {
+        "name": "dragon",
+        "image": "/public/images/elements/dragon.png"
+      },
+      {
+        "name": "water"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "watering",
+        "image": "/public/images/works/watering.png",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 1
+      }
+    ],
+    "drops": ["high_quality_pal_oil", "ruby"],
+    "aura": {
+      "name": "hungry_missile",
+      "description": "Can be ridden. Can rapidly fire a missile launcher while mounted.",
+      "tech": null
+    },
+    "description": "Contrary to its blas\u00c3\u00a9 appearance, it's quite ferocious.\nIt perceives everything in its sight as prey and will stop at nothing to devour it.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "dragon_cannon",
+        "type": "dragon",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Hurls an energy ball imbued with draconic energy at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "aqua_gun",
+        "type": "water",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Hurls a ball of water straight at an enemy.\n"
+      },
+      {
+        "level": 15,
+        "name": "dragon_burst",
+        "type": "dragon",
+        "cooldown": 10,
+        "power": 55,
+        "description": "Quickly discharges draconic energy, damaging those around it.\n"
+      },
+      {
+        "level": 22,
+        "name": "bubble_blast",
+        "type": "water",
+        "cooldown": 13,
+        "power": 65,
+        "description": "Fires numerous bubbles that slowly pursue an enemy.\n"
+      },
+      {
+        "level": 30,
+        "name": "draconic_breath",
+        "type": "dragon",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it.\n"
+      },
+      {
+        "level": 40,
+        "name": "aqua_burst",
+        "type": "water",
+        "cooldown": 30,
+        "power": 100,
+        "description": "Creates a giant ball of water and hurls it at an enemy.\n"
+      },
+      {
+        "level": 50,
+        "name": "dragon_meteor",
+        "type": "dragon",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Calls down numerous small meteorites and launches them at an enemy.\n"
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": {
+        "melee": 110,
+        "ranged": 100
+      },
+      "defense": 70,
+      "speed": {
+        "ride": 800,
+        "run": 650,
+        "walk": 60
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 7
+    },
+    "asset": "LazyDragon",
+    "genus": "monster",
+    "rarity": 8,
+    "price": 10240,
+    "size": "xl",
+    "maps": {
+      "day": "/public/images/maps/085-day.png",
+      "night": "/public/images/maps/085-night.png"
+    },
+    "breeding": {
+      "rank": 280,
+      "order": 54,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 13,
+    "key": "089",
+    "image": "/public/images/paldeck/089.png",
+    "name": "Kingpaca",
+    "wiki": "https://palworld.fandom.com/wiki/Kingpaca",
+    "types": [
+      {
+        "name": "neutral"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 1
+      }
+    ],
+    "drops": ["wool"],
+    "aura": {
+      "name": "king_of_muscles",
+      "description": "Can be ridden. While in team, Kingpaca helps carry supplies, increasing the player's max carrying capacity.",
+      "tech": null
+    },
+    "description": "Melpaca serve this Pal.\nContests between Kingpaca offer up their vassals as a wager. Those seen alone are losers of such contests.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "sand_blast",
+        "type": "ground",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Hurls sticky mud at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "power_shot",
+        "type": "neutral",
+        "cooldown": 4,
+        "power": 35,
+        "description": "Charges energy into a focused blast.\n"
+      },
+      {
+        "level": 15,
+        "name": "power_bomb",
+        "type": "neutral",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Charges a massive amount of energy before firing a large destructive ball.\n"
+      },
+      {
+        "level": 22,
+        "name": "kingly_slam",
+        "type": "neutral",
+        "cooldown": 21,
+        "power": 100,
+        "description": "Kingpaca's exclusive skill. Leaps high into the air before smashing into an enemy with its massive body.\n"
+      },
+      {
+        "level": 30,
+        "name": "tri-lightning",
+        "type": "electric",
+        "cooldown": 22,
+        "power": 90,
+        "description": "Generates lightning that strikes an enemy three times from above.\n"
+      },
+      {
+        "level": 40,
+        "name": "rock_lance",
+        "type": "ground",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Generates a sharp rock spear under an enemy.\n"
+      },
+      {
+        "level": 50,
+        "name": "pal_blast",
+        "type": "neutral",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges destructive energy before firing a high-powered beam forward across a wide area.\n"
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": {
+        "melee": 100,
+        "ranged": 85
+      },
+      "defense": 90,
+      "speed": {
+        "ride": 700,
+        "run": 500,
+        "walk": 80
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 7
+    },
+    "asset": "KingAlpaca",
+    "genus": "fourlegged",
+    "rarity": 8,
+    "price": 5800,
+    "size": "xl",
+    "maps": {
+      "day": "/public/images/maps/089-day.png",
+      "night": "/public/images/maps/089-night.png"
+    },
+    "breeding": {
+      "rank": 470,
+      "order": 110,
+      "child_eligble": true,
+      "male_probability": 90.0
+    }
+  },
+  {
+    "id": 14,
+    "key": "090",
+    "image": "/public/images/paldeck/090.png",
+    "name": "Mammorest",
+    "wiki": "https://palworld.fandom.com/wiki/Mammorest",
+    "types": [
+      {
+        "name": "grass"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "planting",
+        "image": "/public/images/works/planting.png",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "image": "/public/images/works/lumbering.png",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "image": "/public/images/works/mining.png",
+        "level": 2
+      }
+    ],
+    "drops": ["high_quality_pal_oil", "leather", "mammorest_meat"],
+    "aura": {
+      "name": "gaia_crusher",
+      "description": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted.",
+      "tech": null
+    },
+    "description": "The vegetation on its back varies between individuals. There is a long history of appreciating this veritable garden of a Pal, and there are even Mammorest pruning specialists.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "sand_blast",
+        "type": "ground",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Hurls sticky mud at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "seed_machine_gun",
+        "type": "grass",
+        "cooldown": 9,
+        "power": 50,
+        "description": "Fires a volley of hard seeds at enemies in front of it.\n"
+      },
+      {
+        "level": 15,
+        "name": "power_bomb",
+        "type": "neutral",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Charges a massive amount of energy before firing a large destructive ball.\n"
+      },
+      {
+        "level": 22,
+        "name": "grass_tornado",
+        "type": "grass",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two tornadoes on either side before launching them at an enemy.\n"
+      },
+      {
+        "level": 30,
+        "name": "earth_impact",
+        "type": "ground",
+        "cooldown": 30,
+        "power": 100,
+        "description": "Mammorest's exclusive skill. Uses massive body to shake the earth, dealing damage over a wide area.\n"
+      },
+      {
+        "level": 40,
+        "name": "spine_vine",
+        "type": "grass",
+        "cooldown": 25,
+        "power": 95,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.\n"
+      },
+      {
+        "level": 50,
+        "name": "solar_blast",
+        "type": "grass",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges solar energy before blasting enemies with a powerful beam.\n"
+      }
+    ],
+    "stats": {
+      "hp": 150,
+      "attack": {
+        "melee": 100,
+        "ranged": 85
+      },
+      "defense": 90,
+      "speed": {
+        "ride": 600,
+        "run": 430,
+        "walk": 135
+      },
+      "stamina": 100,
+      "support": 30,
+      "food": 8
+    },
+    "asset": "GrassMammoth",
+    "genus": "fourlegged",
+    "rarity": 8,
+    "price": 9450,
+    "size": "xl",
+    "maps": {
+      "day": "/public/images/maps/090-day.png",
+      "night": "/public/images/maps/090-night.png"
+    },
+    "breeding": {
+      "rank": 300,
+      "order": 68,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 15,
+    "key": "095",
+    "image": "/public/images/paldeck/095.png",
+    "name": "Quivern",
+    "wiki": "https://palworld.fandom.com/wiki/Quivern",
+    "types": [
+      {
+        "name": "dragon"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 1
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 3
+      },
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 2
+      },
+      {
+        "type": "mining",
+        "image": "/public/images/works/mining.png",
+        "level": 2
+      }
+    ],
+    "drops": ["high_quality_pal_oil"],
+    "aura": {
+      "name": "sky_dragon's_affection",
+      "description": "Can be ridden as a flying mount. Enhances Dragon attacks while mounted.",
+      "tech": null
+    },
+    "description": "Sleeping while cuddling a Quivern is said to be a heavenly experience, but there are some who have been crushed and sent to heaven by ones that toss and turn in their sleep.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "dragon_cannon",
+        "type": "dragon",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Hurls an energy ball imbued with draconic energy at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "spirit_fire",
+        "type": "fire",
+        "cooldown": 7,
+        "power": 45,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward.\n"
+      },
+      {
+        "level": 15,
+        "name": "acid_rain",
+        "type": "water",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Creates acidic clouds that pour down acid rain on enemies.\n"
+      },
+      {
+        "level": 22,
+        "name": "draconic_breath",
+        "type": "dragon",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Exhales breath imbued with draconic energy, dealing continuous damage to those in front of it.\n"
+      },
+      {
+        "level": 30,
+        "name": "grass_tornado",
+        "type": "grass",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two tornadoes on either side before launching them at an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "aqua_burst",
+        "type": "water",
+        "cooldown": 30,
+        "power": 100,
+        "description": "Creates a giant ball of water and hurls it at an enemy.\n"
+      },
+      {
+        "level": 50,
+        "name": "dragon_meteor",
+        "type": "dragon",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Calls down numerous small meteorites and launches them at an enemy.\n"
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": {
+        "melee": 100,
+        "ranged": 100
+      },
+      "defense": 100,
+      "speed": {
+        "ride": 950,
+        "run": 800,
+        "walk": 240
+      },
+      "stamina": 220,
+      "support": 100,
+      "food": 4
+    },
+    "asset": "SkyDragon",
+    "genus": "dragon",
+    "rarity": 7,
+    "price": 6830,
+    "size": "l",
+    "maps": {
+      "day": "/public/images/maps/095-day.png",
+      "night": "/public/images/maps/095-night.png"
+    },
+    "breeding": {
+      "rank": 350,
+      "order": 124,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 16,
+    "key": "097",
+    "image": "/public/images/paldeck/097.png",
+    "name": "Helzephyr",
+    "wiki": "https://palworld.fandom.com/wiki/Helzephyr",
+    "types": [
+      {
+        "name": "dark"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 3
+      }
+    ],
+    "drops": ["venom_gland", "medium_pal_soul"],
+    "aura": {
+      "name": "wings_of_death",
+      "description": "Can be ridden as a flying mount. Applies Dark damage to the player's attacks while mounted.",
+      "tech": null
+    },
+    "description": "It calls forth lightning from the depths of hell. One who dies from Helzephyr's inferno is sure to be sent to the underworld.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "spirit_fire",
+        "type": "fire",
+        "cooldown": 7,
+        "power": 45,
+        "description": "Shoots fireballs towards an enemy. The fireballs explode after a short distance, generating smaller fireballs that spread forward.\n"
+      },
+      {
+        "level": 7,
+        "name": "dark_ball",
+        "type": "dark",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Unleashes a sphere of darkness that slowly tracks down the enemy.\n"
+      },
+      {
+        "level": 15,
+        "name": "shadow_burst",
+        "type": "dark",
+        "cooldown": 10,
+        "power": 55,
+        "description": "Quickly discharges dark energy, damaging those around it.\n"
+      },
+      {
+        "level": 22,
+        "name": "flare_storm",
+        "type": "fire",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two flaming tornadoes on either side before launching them at an enemy.\n"
+      },
+      {
+        "level": 30,
+        "name": "spirit_flame",
+        "type": "dark",
+        "cooldown": 16,
+        "power": 75,
+        "description": "Fires three balls of malice that relentlessly pursue an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "nightmare_ball",
+        "type": "dark",
+        "cooldown": 30,
+        "power": 100,
+        "description": "Creates a giant ball of darkness and hurls it at an enemy.\n"
+      },
+      {
+        "level": 50,
+        "name": "dark_laser",
+        "type": "dark",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges dark energy before blasting enemies with a powerful beam.\n"
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": {
+        "melee": 100,
+        "ranged": 125
+      },
+      "defense": 100,
+      "speed": {
+        "ride": 1100,
+        "run": 700,
+        "walk": 100
+      },
+      "stamina": 170,
+      "support": 100,
+      "food": 8
+    },
+    "asset": "HadesBird",
+    "genus": "bird",
+    "rarity": 7,
+    "price": 7840,
+    "size": "l",
+    "maps": {
+      "night": "/public/images/maps/097-night.png"
+    },
+    "breeding": {
+      "rank": 190,
+      "order": 125,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 17,
+    "key": "100",
+    "image": "/public/images/paldeck/100.png",
+    "name": "Anubis",
+    "wiki": "https://palworld.fandom.com/wiki/Anubis",
+    "types": [
+      {
+        "name": "ground"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 4
+      },
+      {
+        "type": "mining",
+        "image": "/public/images/works/mining.png",
+        "level": 3
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 2
+      }
+    ],
+    "drops": ["bone", "large_pal_soul", "innovative_technical_manual"],
+    "aura": {
+      "name": "guardian_of_the_desert",
+      "description": "When fighting together, applies Ground damage to the player's attacks. Sometimes dodges attacks with a high speed sidestep while in a battle.",
+      "tech": null
+    },
+    "description": "Once seen as a symbol of nobility, and an idol for those who shunned wealth and power. Yet over time, this Pal became a token of death.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "stone_blast",
+        "type": "ground",
+        "cooldown": 10,
+        "power": 55,
+        "description": "Fires a barrage of stones forward.\n"
+      },
+      {
+        "level": 7,
+        "name": "power_bomb",
+        "type": "neutral",
+        "cooldown": 15,
+        "power": 70,
+        "description": "Charges a massive amount of energy before firing a large destructive ball.\n"
+      },
+      {
+        "level": 15,
+        "name": "sand_tornado",
+        "type": "ground",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two sand tornadoes on either side before launching them at an enemy.\n"
+      },
+      {
+        "level": 22,
+        "name": "spinning_roundhouse",
+        "type": "ground",
+        "cooldown": 21,
+        "power": 100,
+        "description": "Anubis's special skill. Performs a spin kick with its strong legs, cutting down enemies over a wide area.\n"
+      },
+      {
+        "level": 30,
+        "name": "forceful_charge",
+        "type": "ground",
+        "cooldown": 28,
+        "power": 120,
+        "description": "Anubis's special skill. Pursues its foe with a high speed dash while releasing energy and unleashes a powerful punch.\n"
+      },
+      {
+        "level": 40,
+        "name": "ground_smash",
+        "type": "ground",
+        "cooldown": 35,
+        "power": 140,
+        "description": "Anubis's special skill. Leaps high into the air before diving to the ground with a punch. The force of the impact deals damage over a wide area.\n"
+      },
+      {
+        "level": 50,
+        "name": "rock_lance",
+        "type": "ground",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Generates a sharp rock spear under an enemy.\n"
+      }
+    ],
+    "stats": {
+      "hp": 120,
+      "attack": {
+        "melee": 130,
+        "ranged": 130
+      },
+      "defense": 100,
+      "speed": {
+        "ride": 1000,
+        "run": 800,
+        "walk": 160
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 6
+    },
+    "asset": "Anubis",
+    "genus": "humanoid",
+    "rarity": 10,
+    "price": 4960,
+    "size": "m",
+    "maps": {},
+    "breeding": {
+      "rank": 570,
+      "order": 1,
+      "child_eligble": true,
+      "male_probability": 50.0
+    }
+  },
+  {
+    "id": 18,
+    "key": "103",
+    "image": "/public/images/paldeck/103.png",
+    "name": "Grizzbolt",
+    "wiki": "https://palworld.fandom.com/wiki/Grizzbolt",
+    "types": [
+      {
+        "name": "electric"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "generating_electricity",
+        "image": "/public/images/works/generating_electricity.png",
+        "level": 3
+      },
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 3
+      },
+      {
+        "type": "lumbering",
+        "image": "/public/images/works/lumbering.png",
+        "level": 2
+      }
+    ],
+    "drops": ["electric_organ", "leather"],
+    "aura": {
+      "name": "yellow_tank",
+      "description": "Can be ridden. Can rapidly fire a minigun while mounted.",
+      "tech": null
+    },
+    "description": "With a friendly smile and a hardy physique, it is docile towards one it recognizes as a partner. For reasons unexplained, its personality undergoes a drastic change when wielding a minigun.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "spark_blast",
+        "type": "electric",
+        "cooldown": 2,
+        "power": 30,
+        "description": "The user releases a lightning ball that expands outward in a forward, circular pattern.\n"
+      },
+      {
+        "level": 7,
+        "name": "shockwave",
+        "type": "electric",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Quickly discharges electricity, shocking those around it.\n"
+      },
+      {
+        "level": 15,
+        "name": "lightning_claw",
+        "type": "electric",
+        "cooldown": 22,
+        "power": 90,
+        "description": "Grizzbolt's special skill. After leaping at an enemy and tearing at it twice with its electrically charged claws, it attacks the ground, sending an electric shock throughout the area.\n"
+      },
+      {
+        "level": 22,
+        "name": "lightning_streak",
+        "type": "electric",
+        "cooldown": 16,
+        "power": 75,
+        "description": "Generates a lightning bolt that moves forward in a line.\n"
+      },
+      {
+        "level": 30,
+        "name": "tri-lightning",
+        "type": "electric",
+        "cooldown": 22,
+        "power": 90,
+        "description": "Generates lightning that strikes an enemy three times from above.\n"
+      },
+      {
+        "level": 40,
+        "name": "lightning_strike",
+        "type": "electric",
+        "cooldown": 40,
+        "power": 120,
+        "description": "Acts as a lightning rod, calling down thunderbolts that electrocute the surrounding area.\n"
+      },
+      {
+        "level": 50,
+        "name": "lightning_bolt",
+        "type": "electric",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges electric energy before blasting enemies with a powerful shock.\n"
+      }
+    ],
+    "stats": {
+      "hp": 105,
+      "attack": {
+        "melee": 120,
+        "ranged": 100
+      },
+      "defense": 100,
+      "speed": {
+        "ride": 550,
+        "run": 470,
+        "walk": 140
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 7
+    },
+    "asset": "ElecPanda",
+    "genus": "humanoid",
+    "rarity": 8,
+    "price": 7720,
+    "size": "l",
+    "maps": {
+      "day": "/public/images/maps/103-day.png",
+      "night": "/public/images/maps/103-night.png"
+    },
+    "breeding": {
+      "rank": 200,
+      "order": 13,
+      "child_eligble": false,
+      "male_probability": 50.0
+    }
+  }, 
+  {
+    "id": 19,
+    "key": "104",
+    "image": "/public/images/paldeck/104.png",
+    "name": "Lyleen",
+    "wiki": "https://palworld.fandom.com/wiki/Lyleen",
+    "types": [
+      {
+        "name": "grass"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "planting",
+        "image": "/public/images/works/planting.png",
+        "level": 4
+      },
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 3
+      },
+      {
+        "type": "medicine_production",
+        "image": "/public/images/works/medicine_production.png",
+        "level": 3
+      },
+      {
+        "type": "gathering",
+        "image": "/public/images/works/gathering.png",
+        "level": 2
+      }
+    ],
+    "drops": [
+      "low_grade_medical_supplies",
+      "beautiful_flower",
+      "innovative_technical_manual"
+    ],
+    "aura": {
+      "name": "harvest_goddess",
+      "description": "When activated, the queen's soothing graces greatly restore the player's HP.",
+      "tech": null
+    },
+    "description": "A docile Pal full of love.\nIt watches over small Pals who have lost their parents. It uses a full-power Solar Blast to discipline naughty Pals.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "wind_cutter",
+        "type": "grass",
+        "cooldown": 2,
+        "power": 30,
+        "description": "Fires a high speed blade of wind that flies straight at an enemy.\n"
+      },
+      {
+        "level": 7,
+        "name": "seed_machine_gun",
+        "type": "grass",
+        "cooldown": 9,
+        "power": 50,
+        "description": "Fires a volley of hard seeds at enemies in front of it.\n"
+      },
+      {
+        "level": 15,
+        "name": "seed_mine",
+        "type": "grass",
+        "cooldown": 13,
+        "power": 65,
+        "description": "Launches a deadly seed. If it hits an enemy, the seed explodes.\n"
+      },
+      {
+        "level": 22,
+        "name": "aqua_burst",
+        "type": "water",
+        "cooldown": 30,
+        "power": 100,
+        "description": "Creates a giant ball of water and hurls it at an enemy.\n"
+      },
+      {
+        "level": 30,
+        "name": "grass_tornado",
+        "type": "grass",
+        "cooldown": 18,
+        "power": 80,
+        "description": "Generates two tornadoes on either side before launching them at an enemy.\n"
+      },
+      {
+        "level": 40,
+        "name": "spine_vine",
+        "type": "grass",
+        "cooldown": 25,
+        "power": 95,
+        "description": "Generates spiny thorns that chase an enemy along the ground, piercing them from below.\n"
+      },
+      {
+        "level": 50,
+        "name": "solar_blast",
+        "type": "grass",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges solar energy before blasting enemies with a powerful beam.\n"
+      }
+    ],
+    "stats": {
+      "hp": 110,
+      "attack": {
+        "melee": 100,
+        "ranged": 110
+      },
+      "defense": 105,
+      "speed": {
+        "ride": 550,
+        "run": 450,
+        "walk": 100
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 6
+    },
+    "asset": "LilyQueen",
+    "genus": "humanoid",
+    "rarity": 9,
+    "price": 7160,
+    "size": "l",
+    "maps": {
+      "day": "/public/images/maps/104-day.png",
+      "night": "/public/images/maps/104-night.png"
+    },
+    "breeding": {
+      "rank": 250,
+      "order": 92,
+      "child_eligble": false,
+      "male_probability": 30.0
+    }
+  },
+  {
+    "id": 20,
+    "key": "033B",
+    "image": "/public/images/paldeck/033B.png",
+    "name": "Mossanda Lux",
+    "wiki": "https://palworld.fandom.com/wiki/Mossanda_Lux",
+    "types": [
+      {
+        "name": "electric"
+      }
+    ],
+    "suitability": [
+      {
+        "type": "generating_electricity",
+        "image": "/public/images/works/generating_electricity.png",
+        "level": 2
+      },
+      {
+        "type": "handiwork",
+        "image": "/public/images/works/handiwork.png",
+        "level": 2
+      },
+      {
+        "type": "lumbering",
+        "image": "/public/images/works/lumbering.png",
+        "level": 2
+      },
+      {
+        "type": "transporting",
+        "image": "/public/images/works/transporting.png",
+        "level": 3
+      }
+    ],
+    "drops": ["mushroom", "electric_organ", "leather"],
+    "aura": {
+      "name": "plane_partner",
+      "description": "Can be ridden. Can rapidly fire a grenade launcher while mounted.",
+      "tech": null
+    },
+    "description": "A Pal whose power is truly shocking. By altering the electrical currents in its body, this Pal's been able to overload its own strength. When it comes to sheer power, this Pal may be top of the list.",
+    "skills": [
+      {
+        "level": 1,
+        "name": "spark_blast",
+        "type": "electric",
+        "cooldown": 2,
+        "power": 30,
+        "description": "The user releases a lightning ball that expands outward in a forward, circular pattern.\n"
+      },
+      {
+        "level": 7,
+        "name": "shockwave",
+        "type": "electric",
+        "cooldown": 4,
+        "power": 40,
+        "description": "Quickly discharges electricity, shocking those around it.\n"
+      },
+      {
+        "level": 15,
+        "name": "lightning_streak",
+        "type": "electric",
+        "cooldown": 16,
+        "power": 75,
+        "description": "Generates a lightning bolt that moves forward in a line.\n"
+      },
+      {
+        "level": 22,
+        "name": "blast_punch",
+        "type": "electric",
+        "cooldown": 14,
+        "power": 85,
+        "description": "Mossanda Lux's exclusive skill. Winds up its fist before pummeling an enemy with a flurry of electrically charged punches.\n"
+      },
+      {
+        "level": 30,
+        "name": "tri-lightning",
+        "type": "electric",
+        "cooldown": 22,
+        "power": 90,
+        "description": "Generates lightning that strikes an enemy three times from above.\n"
+      },
+      {
+        "level": 40,
+        "name": "lightning_strike",
+        "type": "electric",
+        "cooldown": 40,
+        "power": 120,
+        "description": "Acts as a lightning rod, calling down thunderbolts that electrocute the surrounding area.\n"
+      },
+      {
+        "level": 50,
+        "name": "lightning_bolt",
+        "type": "electric",
+        "cooldown": 55,
+        "power": 150,
+        "description": "Charges electric energy before blasting enemies with a powerful shock.\n"
+      }
+    ],
+    "stats": {
+      "hp": 100,
+      "attack": {
+        "melee": 100,
+        "ranged": 100
+      },
+      "defense": 100,
+      "speed": {
+        "ride": 700,
+        "run": 500,
+        "walk": 100
+      },
+      "stamina": 100,
+      "support": 100,
+      "food": 5
+    },
+    "asset": "GrassPanda_Electric",
+    "genus": "humanoid",
+    "rarity": 7,
+    "price": 6610,
+    "size": "l",
+    "maps": {
+      "day": "/public/images/maps/033B-day.png",
+      "night": "/public/images/maps/033B-night.png"
+    },
+    "breeding": {
+      "rank": 390,
+      "order": 98,
+      "child_eligble": false,
+      "male_probability": 50.0
+    }
+  }
+]
