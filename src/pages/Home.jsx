@@ -1,22 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { GuideList } from '../components/GuideList';
 
 function Home() {
   return (
     <>
-        <h2>Palworld tutorial</h2>
-        <ul>
-            <li> 1  </li>
-            <li> 1  </li>
-            <li> 1  </li>
-            <li> 1  </li>
-            <li> 1  </li>
-            <li> 1  </li>
-        </ul>
-        <li className="link-item"> 
-        <Link to="/pals"> Pals</Link>
-        </li>
+        <h2 className="inknut-antiqua-regular">Palworld tutorial</h2>
+        <GuideList />
+        <div className="route-item">
+            <Link to="/pals">Check out pals</Link>
+        </div>
     </>
   ) 
 }

@@ -8,7 +8,8 @@ import './styles/App.css';
 import './styles/Pals.css'; 
 import './styles/Home.css'; 
 
-function App() {
+export default function App() {
+
   return (
     <div>
       <Header />
@@ -19,5 +20,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

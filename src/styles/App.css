@@ -1,40 +1,14 @@
 /* CSS using Mobile-first approach */
 
-/* Import fonts (Inknut Antiqua and Biorhyme) */
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Inknut+Antiqua:wght@400;600&display=swap'); 
-
-.inknut-antiqua-regular {
-  font-family: "Inknut Antiqua", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.inknut-antiqua-semibold {
-  font-family: "Inknut Antiqua", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.biorhyme-text {
-  font-family: "BioRhyme", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
 
 .App {
-  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
 }
 
 html, body {
   height: 100vh; 
-}
-
-main {
-  flex: auto; 
 }
 
 body {
@@ -44,9 +18,35 @@ body {
   background-color: #0C172D;
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100vh; /* !!! We have to set the height of the parent so all children can calculate their relative height based on this value*/
   overflow: auto; 
 } 
+
+/* Import fonts (Inknut Antiqua and Biorhyme) */
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Inknut+Antiqua:wght@400;600&display=swap'); 
+
+.inknut-antiqua-regular {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inknut-antiqua-semibold, a {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+p {
+  font-family: "BioRhyme", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 14px; 
+}
 
 h1 {
   font-size: 20px;
@@ -62,6 +62,31 @@ h3 {
 
 p {
   font-size: 14px;
+}
+
+ul,li, a {
+  list-style: none;
+}
+
+header {
+  text-align: center;
+}
+
+.route-item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.route-item a:hover {
+  /* Optional: Add any hover styles if needed */
+  color: #007bff; /* Example: Change color on hover */
+}
+
+/* Additional styles for route-item */
+.route-item {
+  margin: 10px 0;
+  padding: 5px;
+  /* Any other styles you want to apply to the route-item */
 }
 
 /* wider screen styles */
