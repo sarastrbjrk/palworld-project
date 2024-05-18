@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Pals from './pages/Pals';
 
+import 'bootstrap/dist/css/bootstrap.min.css'; /* boostrap for carousel */
 import './styles/App.css'; 
 import './styles/Pals.css'; 
 import './styles/Home.css'; 

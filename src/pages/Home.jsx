@@ -8,7 +8,7 @@ function Home() {
         <h2 className="inknut-antiqua-regular">Palworld tutorial</h2>
         <GuideList />
         <div className="route-item">
-            <Link to="/pals">Check out pals</Link>
+            <Link to="/pals">Explore pals</Link>
         </div>
     </>
   ) 

@@ -1,6 +1,5 @@
 /* CSS using Mobile-first approach */
 
-
 .App {
   width: 100%;
   max-width: 400px;
@@ -12,15 +11,14 @@ html, body {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  color: #FFFFFF;
-  background-color: #0C172D;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh; /* !!! We have to set the height of the parent so all children can calculate their relative height based on this value*/
-  overflow: auto; 
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  background-color: #0C172D;
 } 
 
 /* Import fonts (Inknut Antiqua and Biorhyme) */
