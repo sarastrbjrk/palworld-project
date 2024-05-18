@@ -1,0 +1,86 @@
+/* CSS using Mobile-first approach */
+
+/* Import fonts (Inknut Antiqua and Biorhyme) */
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Inknut+Antiqua:wght@400;600&display=swap'); 
+
+.inknut-antiqua-regular {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inknut-antiqua-semibold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.biorhyme-text {
+  font-family: "BioRhyme", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.App {
+  text-align: center;
+}
+
+html, body {
+  height: 100vh; 
+}
+
+main {
+  flex: auto; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  background-color: #0C172D;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* !!! We have to set the height of the parent so all children can calculate their relative height based on this value*/
+  overflow: auto; 
+} 
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* wider screen styles */
+@media (min-width: 600px) {
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}
