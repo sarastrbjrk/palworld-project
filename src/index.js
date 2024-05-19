@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'; /* boostrap for carousel */
 import './styles/App.css'; 
 import './styles/Home.css'; 
 import './styles/Fonts.css'; 
-import './styles/Home.css'; 
 
 ReactDOM.render(
   <Router>

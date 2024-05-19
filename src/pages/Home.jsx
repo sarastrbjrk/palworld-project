@@ -5,8 +5,8 @@ import CallToAction from '../components/CallToAction';
 function Home() {
   return (
     <div className="home-page">
-      <CallToAction />
       <CarouselComponent />
+      <CallToAction />
     </div>
   ) 
 }

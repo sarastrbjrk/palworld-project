@@ -12,7 +12,7 @@
 }
 
 body {
-  background: url('/public/images/palworld.jpg') no-repeat center center fixed;
+  background: url('.././../public/images/palworld.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 .app {
