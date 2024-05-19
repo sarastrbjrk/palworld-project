@@ -1,110 +1,68 @@
 /* CSS using Mobile-first approach */
 
-.App {
-  width: 100%;
-  max-width: 400px;
-  margin: 10px auto;
+/* basic layout */
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
+.root {
   height: 100vh; 
+  width: 100vh; 
 }
 
 body {
+  background: url('/public/images/palworld.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.app {
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh; /* !!! We have to set the height of the parent so all children can calculate their relative height based on this value*/
-  margin: 0;
-  padding: 0;
   color: #0C172D;
-  background-color: #FFFFFF;
 } 
 
-/* Import fonts (Inknut Antiqua and Biorhyme) */
-@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&family=Inknut+Antiqua:wght@400;600&display=swap'); 
-
-h1 {
-  font-family: "Inknut Antiqua", serif;
-  font-weight: 400;
-  font-style: normal;
+/* HEADER */
+.header {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%; 
+  padding: 5px 0 0 0; 
+  box-sizing: border-box;
 }
 
-.inknut-antiqua-semibold {
-  font-family: "Inknut Antiqua", serif;
-  font-weight: 600;
-  font-style: normal;
+/* LINKS/ROUTES */
+.route-item a {
+  text-decoration: none;
 }
 
-p, h2, h3, a {
-  font-family: "BioRhyme", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  font-size: 14px; 
+.route-item a:hover {
+  color: #007bff; 
 }
 
-h1 {
-  font-size: 20px;
-  padding: 10px; 
-}
-
-h2 {
-  font-size: 18px;
-}
-
-h3 {
-  font-size: 16px;
-}
-
-p {
-  font-size: 14px;
+.route-item {
+  margin: 10px 0;
+  padding: 5px;
 }
 
 ul,li, a {
   list-style: none;
 }
 
-header {
-  text-align: center;
+/* FOOTER */
+
+.footer {
+  position: fixed;
+  bottom: 0;
 }
 
-.route-item a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.route-item a:hover {
-  /* Optional: Add any hover styles if needed */
-  color: #007bff; /* Example: Change color on hover */
-}
-
-/* Additional styles for route-item */
-.route-item {
-  margin: 10px 0;
-  padding: 5px;
-  /* Any other styles you want to apply to the route-item */
+.footer p {
+  color: #FFFFFF; 
 }
 
 /* wider screen styles */
-@media (min-width: 600px) {
+@media (min-width: 300px) {
 
-  h1 {
-    font-size: 32px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 24px;
-  }
-
-  p {
-    font-size: 16px;
-  }
 
 }

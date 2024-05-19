@@ -1,16 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import CarouselComponent from '../components/Carousel';
+import CallToAction from '../components/CallToAction';
 
 function Home() {
   return (
-    <>
-        <h2>Pals Carousel Page</h2>
-            <CarouselComponent />
-        <div className="route-item">
-            <Link to="/guide">How to play</Link>
-        </div>
-    </>
+    <div className="home-page">
+      <CallToAction />
+      <CarouselComponent />
+    </div>
   ) 
 }
 

@@ -27,7 +27,7 @@ function CarouselImage({ text }) {
   return (
     <img
       className="carousel-image"
-      src={imageSrc[text]} // Image source based on text prop
+      src={imageSrc[text]} 
       alt={text} // Alt text based on text prop
     />
   );
