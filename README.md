@@ -5,7 +5,7 @@
 Website: https://palworld-sneakpeak-hseorpy57-sara-storbjorks-projects.vercel.app/
 Github: https://github.com/sarastrbjrk/palworld-project
 Figma: https://www.figma.com/file/tY78Rum92TqgPyEZyHpXMF/palworld-project?type=design&node-id=0-1&mode=design&t=WdqPiBqQH5KNujFM-0 
-Palworld "API" (json file): https://github.com/mlg404/palworld-paldex-api 
+Palworld "API" and pictures (json file): https://github.com/mlg404/palworld-paldex-api 
     
 ## TLDR
 I created a website that serves as a sneakpeak of the gaming experience of the open-world survival RPG **Palworld** created by the Japanese *Pockerpair, Inc*. 
@@ -39,6 +39,7 @@ So in this project I give a sneakpeak of the basic playthrough and some pals tha
     5. Compress images of pals 
     6. Initial UI design, colors and fonts contrast checked at: https://www.realtimecolors.com/docs/contrast-checker?colors=e9eaeb-050708-a7bed3-2e5a83-5196d7&fonts=Inknut%20Antiqua-BioRhyme
     7. Deployed skeleton to Vercel and added CI/CD (commits to master automatically pushes new changes to deployment)
+    8. Added pal "API" carousel
     
     CODE: 
     - first page design

@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import CarouselComponent from '../components/Carousel';
-
+import { GuideList } from '../components/GuideList';
 
 function Pals() {
     return (
         <>
-            <h2>Pals Carousel Page</h2>
-            <CarouselComponent />
+            <h2 className="inknut-antiqua-regular">Palworld tutorial</h2>
+            <GuideList />
             <div className="route-item">
-                <Link to="/"> Back to main</Link>
+                <Link to="/"> Go back</Link>
              </div>
         </>
       ) 
