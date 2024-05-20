@@ -23,7 +23,7 @@ Palworld can be enjoyed by anyone with a PC or xbox, but for the purposes of thi
 
 ## The project
 
-So in this project I give a sneakpeak of the basic playthrough and some pals that exist in the game. 
+So in this project I give a sneakpeak the paldeck that exist in the game. The project includes a hero, a pal carousel element, and a interactive quiz element. 
 
 ### Tasks 
 
@@ -36,7 +36,7 @@ So in this project I give a sneakpeak of the basic playthrough and some pals tha
     7. Deployed skeleton to Vercel and added CI/CD (commits to master automatically pushes new changes to deployment)
     8. Added pal "API" carousel
     9. Interactive element - pal quiz where you match pal and description
-    10. Styling
+    10. Styling + finishing touches
 
 ### Limitations 
     - for some reason my deployed vercel app didn't work for the HTML error checker, so I wasn't able to check for html errors... 
