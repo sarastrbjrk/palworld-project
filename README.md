@@ -2,7 +2,7 @@
 
 ### Sara Storbjörk, 1004762
 
-Website: https://palworld-sneakpeak-ci5mo04kq-sara-storbjorks-projects.vercel.app/ 
+Website: https://palworld-sneakpeak-d6j6wiyng-sara-storbjorks-projects.vercel.app/ 
 
 Github: https://github.com/sarastrbjrk/palworld-project
 
