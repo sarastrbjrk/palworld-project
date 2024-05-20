@@ -48,4 +48,4 @@ This project is a fun way get to know of the pals that exists in the game. The p
 
 ### Total hours
 
-    25h
+    30h
