@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes} from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './pages/Home';
+import Home from './pages/HomePage';
 import QuizPage from './pages/QuizPage';
 
 export default function App() {

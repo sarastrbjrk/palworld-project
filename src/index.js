@@ -5,7 +5,6 @@ import App from './App';
 
 import 'bootstrap/dist/css/bootstrap.min.css'; /* boostrap for carousel */
 import './styles/App.css'; 
-import './styles/Home.css'; 
 import './styles/Fonts.css'; 
 
 ReactDOM.render(

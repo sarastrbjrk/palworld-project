@@ -1,11 +1,10 @@
 import React from 'react';
-import CarouselComponent from '../components/Carousel';
 import CallToAction from '../components/CallToAction';
+import '../styles/Home.css'; 
 
 function Home() {
   return (
     <div className="home-page">
-      <CarouselComponent />
       <CallToAction />
     </div>
   ) 

@@ -24,7 +24,6 @@ Palworld can be enjoyed by anyone with a PC or xbox, but for the purposes of thi
 ## What is Palworld?
 Palworld is a perfect first game for someone who hasn't played a lot of, but still want to get into gaming. If you don't understand why, then I've failed with this project.
 
-Shortly, Palworld or "Pokemon with Guns" is a survival open-world RPG where you catch pals, build bases, explore biomes, and fight bosses. After you've caught a pal you can use it in fights and unlock their "partner" skills, e.g Relaxaurus' partner skill is a missile launcher you can unlock at level 46 (this is end game stuff). You can play it in single-player or online multiplayer. However, the game is still in Early Access, but still got the second-most concurrent players ever (2 million people). However, quite many people played it thorugh in a month or so, so they also had have a very high LOSS of players... which is less fun. 
 
 ## The project
 

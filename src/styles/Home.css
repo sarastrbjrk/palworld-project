@@ -4,7 +4,7 @@
     align-items: center;
     margin: 10px; 
     padding: 10px; 
-  }
+}
   
   /* Apply flex-direction: row for screens wider than 600px */
   @media screen and (min-width: 600px) {
@@ -14,20 +14,14 @@
     }
   }
   
-
-.callToAction {
+.text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10px; 
     padding: 10px; 
     background-color: rgba(255, 255, 255, 0.8);
-    max-width: 50vh; 
+    max-width: 90vh; 
     border-radius: 10px;
-}
-
-.guide-list {
-  margin: 10px; 
-  padding: 10px; 
-  background-color: rgba(255, 255, 255, 0.8);
-  max-width: 50vh; 
-  border-radius: 10px;
 }
 

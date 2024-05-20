@@ -14,6 +14,7 @@
 body {
   background: url('.././../public/images/palworld.jpg') no-repeat center center fixed;
   background-size: cover;
+  padding-bottom: 40px; 
 }
 .app {
 
@@ -33,12 +34,27 @@ body {
 }
 
 /* LINKS/ROUTES */
+.route-item {
+  border: none;
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 10px 10px 0 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
 .route-item a {
   text-decoration: none;
+  color: grey;
+
 }
 
 .route-item a:hover {
-  color: #007bff; 
+  background-color: lightgrey; 
+  color: darkgrey; 
 }
 
 .route-item {
@@ -61,8 +77,3 @@ ul,li, a {
   color: #FFFFFF; 
 }
 
-/* wider screen styles */
-@media (min-width: 300px) {
-
-
-}

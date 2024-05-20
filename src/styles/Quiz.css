@@ -1,8 +1,10 @@
 .quiz-container {
     background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px; 
 }
 
 .quiz {
@@ -27,7 +29,6 @@
 
 .pal-card:hover, .description-card:hover {
     background-color: lightgrey;
-
 }
 
 .pal-card p, .description-card p {
@@ -38,7 +39,7 @@
 }
 
 .matched {
-    background-color: lightgreen; /* Change to your preferred color */
+    background-color: lightgreen; 
     border-color: green;
 }
 
@@ -48,8 +49,10 @@
 
 .buttons button {
     border: none;
+    background-color: lightgrey;
+    color: grey;
     padding: 10px;
-    margin: 10px; 
+    margin: 10px 10px 0 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -59,7 +62,7 @@
 }
 
 .match-button:hover {
-    background-color: grey;
+    background-color: darkgrey;
 }
 
 .reset-button:hover {
