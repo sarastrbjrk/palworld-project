@@ -1,0 +1,67 @@
+.quiz-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz {
+    padding: 10px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.pals-container, .descriptions-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.pal-card, .description-card {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px; 
+    cursor: pointer;
+}
+
+.pal-card:hover, .description-card:hover {
+    background-color: lightgrey;
+
+}
+
+.pal-card p, .description-card p {
+    text-align: center;
+    font-size: 12px; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.matched {
+    background-color: lightgreen; /* Change to your preferred color */
+    border-color: green;
+}
+
+.selected {
+    background-color: lightgrey;
+}
+
+.buttons button {
+    border: none;
+    padding: 10px;
+    margin: 10px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.match-button:hover {
+    background-color: grey;
+}
+
+.reset-button:hover {
+    background-color: red;
+}

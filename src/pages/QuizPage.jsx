@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GuideList } from '../components/GuideList';
+import { Quiz } from '../components/Quiz';
 
-function Guide() {
+function QuizPage() {
+
     return (
         <>
-            <h2 className="inknut-antiqua-regular">Palworld tutorial</h2>
-            <GuideList />
+            <Quiz />
             <div className="route-item">
                 <Link to="/"> Go back</Link>
              </div>
@@ -14,4 +14,4 @@ function Guide() {
       ) 
 }
 
-export default Guide;
+export default QuizPage;

@@ -3,7 +3,7 @@ import { Route, Routes} from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import Guide from './pages/Guide';
+import QuizPage from './pages/QuizPage';
 
 export default function App() {
 
@@ -12,9 +12,9 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/guide" element={<Guide />} />
+        <Route path="/quiz" element={<QuizPage />} />
       </Routes>
       <Footer />
-    </div>
+    </div> 
   );
 }
