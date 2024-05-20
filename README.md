@@ -2,7 +2,7 @@
 
 ### Sara Storbjörk, 1004762
 
-Website: https://palworld-sneakpeak-hseorpy57-sara-storbjorks-projects.vercel.app/
+Website: https://palworld-sneakpeak-ci5mo04kq-sara-storbjorks-projects.vercel.app/ 
 Github: https://github.com/sarastrbjrk/palworld-project
 Figma: https://www.figma.com/file/tY78Rum92TqgPyEZyHpXMF/palworld-project?type=design&node-id=0-1&mode=design&t=WdqPiBqQH5KNujFM-0 
 Palworld "API" and pictures (json file): https://github.com/mlg404/palworld-paldex-api 
