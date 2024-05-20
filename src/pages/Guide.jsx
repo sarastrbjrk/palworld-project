@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { GuideList } from '../components/GuideList';
 
-function Pals() {
+function Guide() {
     return (
         <>
             <h2 className="inknut-antiqua-regular">Palworld tutorial</h2>
@@ -14,4 +14,4 @@ function Pals() {
       ) 
 }
 
-export default Pals;
+export default Guide;

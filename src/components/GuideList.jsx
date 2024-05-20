@@ -11,7 +11,7 @@ const guideSteps = ["Create your character",
 
 function GuideList() {
   return (
-    <div>
+    <div className="guide-list">
       <ul>
          {guideSteps.map((step, index) => (
          <li key={index} > <GuideItem item={step}/> </li>
