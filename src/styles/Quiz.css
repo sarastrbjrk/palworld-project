@@ -20,7 +20,8 @@
 }
 
 .pal-card, .description-card {
-    background-color: #FFFFFF;
+    background-color: white;
+    border: solid lightgrey 1px; 
     border-radius: 5px;
     margin: 5px;
     padding: 5px; 
@@ -34,7 +35,7 @@
 .pal-card p, .description-card p {
     text-align: center;
     font-size: 12px; 
-    padding: 0; 
+    padding: 3px; 
     margin: 0; 
 }
 
@@ -78,4 +79,7 @@
 
 @media (min-width: 400px) {
 
+    .pal-card p, .description-card p {
+        font-size: 14px; 
+    }
 }

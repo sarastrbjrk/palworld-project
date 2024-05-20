@@ -1,6 +1,6 @@
 export const pals = {
     "lamball": "A walk up a hill tends to end with this Pal tumbling back down. This causes it to become dizzy and unable to move, making it easy to capture and kill. As a result, this pal has tumbled down to the very bottom of the food chain itself.",
-    "cattiva": "At a glance it appears full of confidence, but it is in fact weak and cowardly.\nBeing toyed with by a Cattiva is in many ways the greatest of disgraces.",
+    "cattiva": "At a glance it appears full of confidence, but it is in fact weak and cowardly.\nBeing toyed with by a --- is in many ways the greatest of disgraces.",
     "chikipi": "Extremely weak and far too delicious. It is one of the weakest Pals. No matter how many are hunted, they just keep appearing.",
     "teafant": "Large amounts of water pour from what is thought to be its nose, though some say that it is, in fact, just snot. This has sparked a fierce debate among Pal scholars.",
     "direhowl": "Long ago this pal would hunt alongside humans but over the years this bond faded.",
