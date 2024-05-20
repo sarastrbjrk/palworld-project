@@ -10,6 +10,9 @@ function CallToAction() {
         <h3>
           After you've caught a pal you can use it in fights and unlock their "partner" skills, e.g Relaxaurus' partner skill is a missile launcher. 
         </h3>  
+        <h3>
+          In Palworld there are almost 200 different pals, let's check some of them out below. 
+        </h3>  
         <div className="hero-button">
           <Link to="/quiz">Check out pals!</Link>
       </div>
