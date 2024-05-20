@@ -1,5 +1,5 @@
 .carousel-container {
-    width: 300px; 
+    width: 200px; 
     height: 100%; 
     border: 2px solid white;
     margin: 10 auto; /* Center the carousel horizontally */
@@ -22,7 +22,7 @@
 
 @media (min-width: 600px) {
   .carousel-container {
-    width: 400px; 
+    width: 300px; 
   }
 
   .carousel-image {

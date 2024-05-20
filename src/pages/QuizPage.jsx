@@ -9,9 +9,9 @@ function QuizPage() {
     return (
         <div className="quiz-page">
             <div className="text-block">
-                <p>
+                <h3>
                     Check out pals and try to match them to their description below!
-                </p>  
+                </h3>  
             </div>
             <CarouselComponent />
             <Quiz />

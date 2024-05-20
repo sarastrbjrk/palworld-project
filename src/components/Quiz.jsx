@@ -28,11 +28,17 @@ export function Quiz() {
     const handleMatch = () => {
         if (selectedPal && selectedDescription) {
             if (pals[selectedPal] === selectedDescription) {
-                setMatchedPairs({ ...matchedPairs, [selectedPal]: true });
-                alert('Correct!');
+                const newMatchedPairs = { ...matchedPairs, [selectedPal]: true };
+                setMatchedPairs(newMatchedPairs);
+                
+                // Check if all pals have been matched
+                if (Object.keys(newMatchedPairs).length === Object.keys(pals).length) {
+                    alert('Congrats! You are now a pal master!');
+                } 
             } else {
                 alert('Try again!');
             }
+    
             // Reset selections
             setSelectedPal(null);
             setSelectedDescription(null);
@@ -40,6 +46,7 @@ export function Quiz() {
             alert('Please select both a Pal and a description.');
         }
     };
+    
 
     // reset all values
     const handleReset = () => {
@@ -51,10 +58,6 @@ export function Quiz() {
 
     return (
         <div className="quiz-container">
-            <div className="buttons">
-                <button className="match-button" onClick={handleMatch}>Match</button>
-                <button className="reset-button" onClick={handleReset}>Reset</button> {/* Add reset button */}
-            </div>
             <div className="quiz">
                 <div className="pals-container">
                     {Object.keys(pals).map((pal) => (
@@ -78,6 +81,10 @@ export function Quiz() {
                         />
                     ))}
                 </div>
+            </div>
+            <div className="buttons">
+                    <button className="match-button" onClick={handleMatch}>Match</button>
+                    <button className="reset-button" onClick={handleReset}>Reset</button> {/* Add reset button */}
             </div>
         </div>
     );

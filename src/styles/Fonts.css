@@ -21,7 +21,6 @@ p, h2, h3, a {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-  font-size: 14px; 
 }
 
 h1 {
@@ -43,7 +42,7 @@ p {
 
 
 /* wider screen styles */
-@media (min-width: 300px) {
+@media (min-width: 400px) {
 
     /* FONT SIZES */
     h1 {
